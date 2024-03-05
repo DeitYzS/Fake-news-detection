@@ -1,0 +1,98 @@
+body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: auto;
+}
+
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+textarea {
+    width: 500px;
+    height: 300px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-radius: 3px;
+}
+
+.text-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+}
+
+.submit-button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+p {
+    color: #000000;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+}
+
+input {
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border: none;
+    border-radius: 3px;
+}
+
+.HStack {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: center;
+}
+
+.field {
+    background-color: #fff;
+    width: 500px;
+    height: 400px;
+    margin: 5px;
+    align-items: center;
+    text-align: center;
+}
+
+.field-fake-truth {
+    background-color: #f0f0f0;
+    height: 500px;
+    text-align: center;
+    font-weight: bold;
+    width: 25%;
+    margin: 7rem;
+}
